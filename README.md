@@ -45,26 +45,6 @@ To stop the application:
 docker-compose down
 ```
 
-### Option 3: Docker Hub Deployment
-
-1. Login to Docker Hub:
-   ```bash
-   docker login
-   ```
-2. Build the image (replace 'yourusername' with your Docker Hub username):
-   ```bash
-   docker build -t yourusername/link-display:latest .
-   ```
-3. Push the image to Docker Hub:
-   ```bash
-   docker push yourusername/link-display:latest
-   ```
-4. Update the `docker-compose.yml` file with your Docker Hub username
-5. Run the container:
-   ```bash
-   docker-compose up -d
-   ```
-
 ## Example Configuration
 
 - See example-config.json
