@@ -1,0 +1,39 @@
+{
+    "mainColor": "#2c3e50",
+    "secondaryColor": "#34495e",
+    "textColor": "#ecf0f1",
+    "headerText": "My Links",
+    "columns": 3,
+    "linkboxes": [
+        {
+            "title": "GitHub",
+            "link": "https://github.com",
+            "description": "Code hosting platform"
+        },
+        {
+            "title": "LinkedIn",
+            "link": "https://linkedin.com",
+            "description": "Professional networking"
+        },
+        {
+            "title": "Twitter",
+            "link": "https://twitter.com",
+            "description": "Social media platform"
+        },
+        {
+            "title": "Stack Overflow",
+            "link": "https://stackoverflow.com",
+            "description": "Developer Q&A"
+        },
+        {
+            "title": "Dev.to",
+            "link": "https://dev.to",
+            "description": "Developer community"
+        },
+        {
+            "title": "Medium",
+            "link": "https://medium.com",
+            "description": "Blogging platform"
+        }
+    ]
+}

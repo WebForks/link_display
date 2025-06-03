@@ -1,0 +1,12 @@
+{
+    "name": "link-display",
+    "version": "1.0.0",
+    "description": "A customizable link display page",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}

@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    image: ankhussy/link-display:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./config.json:/app/config.json
+    restart: unless-stopped 
